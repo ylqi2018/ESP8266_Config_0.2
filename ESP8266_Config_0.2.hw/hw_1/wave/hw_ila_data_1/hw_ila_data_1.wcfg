@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="D:/Vivado_Program_Files/20170711_ESP8266/ESP8266_Config_0.2/ESP8266_Config_0.2.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="6">
+	</WVObjectSize>
+	<wvobject fp_name="send_byte" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">send_byte[7:0]</obj_property>
+		<obj_property name="ObjectShortName">send_byte[7:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="data_stream_in_stb" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">data_stream_in_stb</obj_property>
+		<obj_property name="ObjectShortName">data_stream_in_stb</obj_property>
+	</wvobject>
+	<wvobject fp_name="data_stream_in_stb_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">data_stream_in_stb_1</obj_property>
+		<obj_property name="ObjectShortName">data_stream_in_stb_1</obj_property>
+	</wvobject>
+	<wvobject fp_name="index" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">index[7:0]</obj_property>
+		<obj_property name="ObjectShortName">index[7:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="data_stream_out_stb" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">data_stream_out_stb</obj_property>
+		<obj_property name="ObjectShortName">data_stream_out_stb</obj_property>
+	</wvobject>
+	<wvobject fp_name="model_sel" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">model_sel[3:0]</obj_property>
+		<obj_property name="ObjectShortName">model_sel[3:0]</obj_property>
+	</wvobject>
+</wave_config>
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1499980884">
+  <File Type="OPT-DCP" Name="ESP8266_ClientConfig_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="ROUTE-DCP" Name="ESP8266_ClientConfig_routed.dcp"/>
+  <File Type="PA-TCL" Name="ESP8266_ClientConfig.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="ESP8266_ClientConfig_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ESP8266_ClientConfig_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="ESP8266_ClientConfig_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ESP8266_ClientConfig.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ESP8266_ClientConfig_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ESP8266_ClientConfig_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ESP8266_ClientConfig_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ESP8266_ClientConfig_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ESP8266_ClientConfig_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ESP8266_ClientConfig_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ESP8266_ClientConfig_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ESP8266_ClientConfig_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ESP8266_ClientConfig_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ESP8266_ClientConfig_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ESP8266_ClientConfig_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="ESP8266_ClientConfig_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ESP8266_ClientConfig_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ESP8266_ClientConfig_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ESP8266_ClientConfig_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="ESP8266_ClientConfig.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="ESP8266_ClientConfig_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="ESP8266_ClientConfig_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="ESP8266_ClientConfig_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ESP8266_ClientConfig_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="ESP8266_ClientConfig_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ESP8266_ClientConfig_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="ESP8266_ClientConfig_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ESP8266_ClientConfig_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ESP8266_ClientConfig_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ESP8266_ClientConfig_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ESP8266_ClientConfig_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ESP8266_ClientConfig_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ESP8266_ClientConfig_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ESP8266_ClientConfig_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ESP8266_ClientConfig_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ESP8266_ClientConfig_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ESP8266_ClientConfig_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="ESP8266_ClientConfig.bit"/>
+  <File Type="BG-BIN" Name="ESP8266_ClientConfig.bin"/>
+  <File Type="BITSTR-MSK" Name="ESP8266_ClientConfig.msk"/>
+  <File Type="BITSTR-RBT" Name="ESP8266_ClientConfig.rbt"/>
+  <File Type="BITSTR-NKY" Name="ESP8266_ClientConfig.nky"/>
+  <File Type="BITSTR-BMM" Name="ESP8266_ClientConfig_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ESP8266_ClientConfig.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ESP8266_ClientConfig.sysdef"/>
+  <File Type="BG-BGN" Name="ESP8266_ClientConfig.bgn"/>
+  <File Type="BG-DRC" Name="ESP8266_ClientConfig.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/uart.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/ila_uart/ila_uart.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ESP8266_ClientConfig.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ESP8266_ClientConfig"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
